@@ -2,12 +2,12 @@ package com.example.covidlive;
 
 public class CountryModel {
 
-    private String flag, country, cases, todayCases, recovered, deaths, todayDeaths, active, criticla;
+    private String flag, country, cases, todayCases, recovered, deaths, todayDeaths, active, critical;
 
     public CountryModel() {
     }
 
-    public CountryModel(String flag, String country, String cases, String todayCases, String recovered, String deaths, String todayDeaths, String active, String criticla) {
+    public CountryModel(String flag, String country, String cases, String todayCases, String recovered, String deaths, String todayDeaths, String active, String critical) {
         this.flag = flag;
         this.country = country;
         this.cases = cases;
@@ -16,7 +16,7 @@ public class CountryModel {
         this.deaths = deaths;
         this.todayDeaths = todayDeaths;
         this.active = active;
-        this.criticla = criticla;
+        this.critical = critical;
     }
 
     public String getFlag() {
@@ -83,11 +83,11 @@ public class CountryModel {
         this.active = active;
     }
 
-    public String getCriticla() {
-        return criticla;
+    public String getCritical() {
+        return critical;
     }
 
-    public void setCriticla(String criticla) {
-        this.criticla = criticla;
+    public void setCritical(String criticla) {
+        this.critical = critical;
     }
 }
